@@ -34,7 +34,7 @@ const ContactList = () => {
                 <h2>전체({filteredContacts.length})</h2>
             </Box>
             <Box className='listBox'
-            display="flex" flexDirection="column" alignItems="center" gap={3}>
+            display="flex" flexDirection="column" alignItems="center" gap={2}>
             {filteredContacts.map((item) => (
                 <Box className="list" display="flex" flexDirection="row" alignItems="center" gap={2} key={item.id}>
                     <img src="https://static.vecteezy.com/system/resources/previews/020/038/368/non_2x/pink-color-heart-icon-isolated-transparent-background-free-png.png" alt="" />
