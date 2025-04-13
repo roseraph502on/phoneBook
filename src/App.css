@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Ownglyph_meetme-Rg';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  background-color: #fbf1f191;
+  font-family: 'Ownglyph_meetme-Rg';
+}
+#root {
+  margin: 0 auto;
+  text-align: center;
+  color: palevioletred;
+}
+Button{
+
+}
+img{
+  width: 5vh; border-radius: 4px;
+}
+.phonebook{
+  width: 80vw;
+  height: 70vh;
+  background-color: #fff;
+  padding: 5vh;
+  border-radius: 20px;
+  /* border: 2px dashed palevioletred; */
+
+}
+#addPN{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 40vw;
+  background-color: #fff;
+  padding: 5vh 0;
+}
+#addPN>img{
+  margin-bottom: 2vh;
+}
+#addBtn{
+  position: absolute;
+  z-index: 0;
+  bottom: 7vh; right: 9vw;
+}
+#addField{
+  width: 25vw;
+}
+.listBox{
+  width: 100%;
+  height: 55vh;
+  overflow-y: auto;
+  background-image: url(https://i.pinimg.com/736x/4e/6a/b1/4e6ab1394f2a54474c47a061eaaafe70.jpg);
+  padding: 2vh 0;
+}
+#searchField{
+  width: 23vw;
+}
+.list{
+  width: 85%;
+  background-color: pink;
+  color: #fff;
+  padding: 2vh;
+  position: relative;
+  border-radius: 20px;
+  font-size: 22px;
+
+}
+.list>img{
+  width: 3vh;
+}
+.list>img:last-child{
+position: absolute;
+  right: 3vh;
+}
+.list>img:first-child{
+background: #fff;
+border-radius: 30px;
+}
+@media (max-width: 768px) {
+  h2,list{
+    font-size: 17px;
+  }
+  #addField{
+    width: 60vw;
+  }
+  #addPN{
+    width: 80vw;
+    top: 30%;
+    left: 10%;
+  }
+  .phonebook{
+    padding: 25px;
+  }
+}
