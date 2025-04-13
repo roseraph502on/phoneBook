@@ -82,6 +82,9 @@ border-radius: 30px;
   h2,.list{
     font-size: 17px;
   }
+  #searchField{
+    height: 1vh;
+  }
   #addField{
     width: 60vw;
   }
